@@ -1,0 +1,24 @@
+{
+  "name": "fm_sunnyside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/css/main.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchapar/FM_sunnyside.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchapar/FM_sunnyside/issues"
+  },
+  "homepage": "https://github.com/jchapar/FM_sunnyside#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
