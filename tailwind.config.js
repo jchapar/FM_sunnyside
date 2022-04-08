@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./dist/*.html'],
+  content: ['./dist/*.{html,js}'],
   theme: {
     extend: {
       color: {
@@ -12,7 +12,7 @@ module.exports = {
         verDarkGrayishBlue: 'hsl(213, 9%, 39%)',
         darkGrayishBlue: 'hsl(232, 10%, 55%)',
         grayishBlue: 'hsl(210, 4%, 67%)',
-        white: 'White: hsl(0, 0%, 100%)',
+        white: 'hsl(0, 0%, 100%)',
       },
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],

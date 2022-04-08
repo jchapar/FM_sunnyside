@@ -13,5 +13,33 @@
 
     <title>Sunnyside</title>
   </head>
-  <body class=""></body>
+  <body>
+    <!-- Header -->
+    <header id="main-header" class="h-screen w-screen">
+      <div class="container mx-auto">
+        <!-- Navigation -->
+        <nav class="p-6 flex justify-between items-center">
+          <!-- Logo -->
+          <div class="pt-2">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden md:flex align-center space-x-6 text-white pt-2 font-barlow">
+            <a href="#" class="pt-2">About</a>
+            <a href="#" class="pt-2">Services</a>
+            <a href="#" class="pt-2">Projects</a>
+            <!-- Contact Btn -->
+            <div class="button rounded-full bg-trasnparent py-2 px-7 bg-white/50 uppercase font-fraunces cursor-pointer hover:bg-white/25">Contact</div>
+          </div>
+        </nav>
+        <!-- Hero Content-->
+        <div class="hero-content h-screen flex flex-col justify-start text-center pt-40">
+          <h1 class="text-white uppercase font-fraunces text-6xl mb-10 md:text-7xl">We are creatives</h1>
+          <div class="flex justify-center">
+            <img src="images/icon-arrow-down.svg" alt="Down Arrow" class="h-48" />
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
