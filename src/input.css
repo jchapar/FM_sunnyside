@@ -26,3 +26,31 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* Section Five */
+.section-five-item-one {
+  background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.section-five-item-two {
+  background-image: url('../images/desktop/image-gallery-orange.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-five-item-three {
+  background-image: url('../images/desktop/image-gallery-cone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-five-item-four {
+  background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
