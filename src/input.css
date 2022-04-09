@@ -11,3 +11,18 @@
 /* .section-one-img {
   background: url('../images/desktop/image-header.jpg') no-repeat center center/cover;
 } */
+
+/* Section Three */
+.bg-design {
+  background-image: url('../images/desktop/image-graphic-design.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-photography {
+  background-image: url('../images/desktop/image-photography.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

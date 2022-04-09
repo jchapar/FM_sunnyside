@@ -18,6 +18,10 @@ module.exports = {
         barlow: ['Barlow', 'sans-serif'],
         fraunces: ['Fraunces', 'serif'],
       },
+      // backgroundImage: {
+      //   design: "url('./dist/images/desktop/image-graphic-design.jpg')",
+      //   photography: "url('./images/desktop/image-photography.jpg')",
+      // },
     },
   },
   plugins: [],

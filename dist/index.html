@@ -13,7 +13,7 @@
 
     <title>Sunnyside</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- Header -->
     <header id="main-header" class="h-screen w-screen">
       <div class="container mx-auto">
@@ -43,21 +43,52 @@
     </header>
 
     <!-- Section One -->
-    <div class="section-one flex flex-col-reverse md:flex-row">
-      <div class="flex-1 p-6 text-center md:text-left md:flex md:flex-col md:justify-center md:items-center">
-        <div>
+    <section class="section-one flex flex-col-reverse md:flex-row">
+      <div class="basis-0 grow text-center md:text-left md:flex md:flex-col md:justify-center md:items-center">
+        <div class="p-6">
           <h2 class="font-fraunces text-4xl mb-4 md:text-left">
             Transform your<br />
             brand
           </h2>
-          <p class="font-barlow text-gray-500 text-lg mb-6 md:max-w-md">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-          <div class="flex flex-col flex-1">
+          <p class="font-barlow text-gray-500 text-lg p-4 mb-6 md:max-w-md md:p-0">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <div class="flex flex-col">
             <a href="#" class="font-fraunces uppercase z-1">Learn More</a>
             <span class="bg-yellow-200/75 w-32 mx-auto h-4 rounded-full md:m-0"></span>
           </div>
         </div>
       </div>
-      <img src="images/desktop/image-transform.jpg" alt="" class="w-full flex-1" />
-    </div>
+      <div class="basis-0 grow">
+        <img src="images/desktop/image-transform.jpg" alt="" class="w-full" />
+      </div>
+    </section>
+
+    <!-- Section Two -->
+    <section class="section-one flex flex-col-reverse md:flex-row-reverse">
+      <div class="basis-0 grow text-center md:text-left md:flex md:flex-col md:justify-center md:items-center">
+        <div class="p-6">
+          <h2 class="font-fraunces text-4xl mb-4 md:text-left md:max-w-md">Stand our to the right audience</h2>
+          <p class="font-barlow text-gray-500 text-lg p-4 mb-6 md:max-w-md md:p-0">Using a collaborative formula of designers, researchers, photographers, videographers and copywriters, we'll build and extend your brand in digital places.</p>
+          <div class="flex flex-col">
+            <a href="#" class="font-fraunces uppercase z-1">Learn More</a>
+            <span class="bg-rose-300/75 w-32 mx-auto h-4 rounded-full md:m-0"></span>
+          </div>
+        </div>
+      </div>
+      <div class="basis-0 grow">
+        <img src="images/desktop/image-stand-out.jpg" alt="" class="w-full" />
+      </div>
+    </section>
+
+    <!-- Section Three -->
+    <section class="section-one grid grid-cols-1 md:grid-cols-2">
+      <div class="bg-design pb-12 text-center h-[60rem] max-w-full flex flex-col justify-end">
+        <h2 class="font-fraunces text-3xl mb-4 text-teal-900">Graphic Design</h2>
+        <p class="font-barlow text-lg p-4 mb-6 text-teal-900 md:max-w-md md:p-0 md:mx-auto">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+      <div class="bg-photography pb-14 text-center h-[60rem] max-w-full flex flex-col justify-end">
+        <h2 class="font-fraunces text-3xl mb-4 text-teal-900">Photography</h2>
+        <p class="font-barlow text-lg p-4 mb-6 text-teal-900 max-w-sm md:p-0 mx-auto">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </section>
   </body>
 </html>
