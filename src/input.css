@@ -28,7 +28,7 @@
 }
 
 /* Section Five */
-.section-five-item-one {
+/* .section-five-item-one {
   background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,4 +53,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+} */
+
+.socials a img:hover {
+  filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(1);
 }

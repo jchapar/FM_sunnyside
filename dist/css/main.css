@@ -507,6 +507,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -661,6 +666,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(253 164 175 / 0.75);
 }
 
+.bg-emerald-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 150 105 / var(--tw-bg-opacity));
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -682,6 +692,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pt-2 {
@@ -807,7 +822,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 /* Section Five */
 
-.section-five-item-one {
+/* .section-five-item-one {
   background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -815,30 +830,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
   width: 100%;
 }
-
 .section-five-item-two {
   background-image: url('../images/desktop/image-gallery-orange.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .section-five-item-three {
   background-image: url('../images/desktop/image-gallery-cone.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .section-five-item-four {
   background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+} */
+
+.socials a img:hover {
+  filter: invert(0) sepia(0) saturate(1) hue-rotate(0deg) brightness(1);
 }
 
 .hover\:bg-white\/25:hover {
   background-color: rgb(255 255 255 / 0.25);
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -861,6 +886,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[30rem\] {
+    height: 30rem;
+  }
+
+  .md\:h-\[20rem\] {
+    height: 20rem;
   }
 
   .md\:max-w-md {
