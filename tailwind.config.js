@@ -13,6 +13,7 @@ module.exports = {
         darkGrayishBlue: 'hsl(232, 10%, 55%)',
         grayishBlue: 'hsl(210, 4%, 67%)',
         white: 'hsl(0, 0%, 100%)',
+        textColor: '#5B636D',
       },
       fontFamily: {
         barlow: ['Barlow', 'sans-serif'],
